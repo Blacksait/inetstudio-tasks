@@ -1,0 +1,11 @@
+{
+    "name": "a/a",
+    "description": "a",
+    "autoload": {
+        "psr-4": {
+            "KeyTask\\": "2_Part/KeyTask/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
