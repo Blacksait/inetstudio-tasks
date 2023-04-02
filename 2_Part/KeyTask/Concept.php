@@ -27,6 +27,12 @@ class Concept {
 
     public function getSecretKey()
     {
+        /**
+         * Реализуем Абстрактную фабрику
+         *
+         * В конфигах выставляем тип получения ключа
+        */
+        
         $factory = (new KeyFactory())->getFactory($this->config);
         return $factory->getSecretKey()->get();
     }
